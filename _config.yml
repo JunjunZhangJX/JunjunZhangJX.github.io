@@ -57,8 +57,8 @@ plugins:
 
 author:
   name   : "Junjun Zhang"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/bio-phot.jpg"
+  bio    : "Economics Ph.D. student at the University of East Anglia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
