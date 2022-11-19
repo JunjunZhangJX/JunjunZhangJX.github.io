@@ -1,6 +1,6 @@
 ---
-title: "Posts by CV"
-layout: categories
+title: "Curriculum Vitae"
+layout: single
 permalink: /CV/
 author_profile: true
 ---
