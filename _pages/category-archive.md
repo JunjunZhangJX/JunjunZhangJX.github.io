@@ -1,6 +1,7 @@
 ---
 title: "Curriculum Vitae"
 layout: single
+sitemap: false
 permalink: /CV/
 author_profile: true
 ---
