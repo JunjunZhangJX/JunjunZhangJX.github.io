@@ -6,7 +6,7 @@ permalink: /CV/
 author_profile: true
 ---
 
-<embed src="https://github.com/JunjunZhangJX/JunjunZhangJX.github.io/blob/master/assets/images/Junjun1_CV.pdf" />
+<embed src="https://github.com/JunjunZhangJX/JunjunZhangJX.github.io/blob/master/assets/images/Junjun1_CV.pdf" type="application/pdf" />
 
 
 
