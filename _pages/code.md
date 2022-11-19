@@ -1,5 +1,5 @@
 ---
-title: BLP demand estimation with price and product quality
+title: Code
 layout: single 
 author_profile: true 
 permalink: /code/ 
