@@ -10,7 +10,7 @@ author_profile: true
 <script src="https://documentcloud.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "b51c04d14e9f4196b78072d802a68f2f", divId: "adobe-dc-view"});
+		var adobeDCView = new AdobeDC.View({clientId: "60f1c40821eb48a4982de99d974ca9a8", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
 			content:{location: {url: "https://github.com/JunjunZhangJX/JunjunZhangJX.github.io/blob/master/assets/images/Junjun1_CV.pdf"}},
 			metaData:{fileName: "Junjun1_CV.pdf"}
