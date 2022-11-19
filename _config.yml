@@ -51,15 +51,18 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-#   - jekyll-feed
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Junjun Zhang"
   avatar : "/assets/images/bio-phot.jpg"
-  bio    : "Economics Ph.D. student at the University of East Anglia"
+  bio    : "Economics Ph.D. student at the University of East Anglia (UEA) and The Centre for Competition Policy (CCP)"
   links:
+     - label: "My email"
+       icon: "fas fa-fw fa-envelope-square"
+       url: "Junjun.Zhang@uea.ac.uk"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       url: "https://"
@@ -69,6 +72,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JunjunZhangJX"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://uk.linkedin.com/in/junjun-zhang-a5a8811b8"
 #     - label: "Google Scholar"
 #       icon: "ai ai-fw ai-google-scholar-square"
 #       url: "https://github.com/JunjunZhangJX"
@@ -76,41 +82,44 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+# #     - label: "Instagram"
+# #       icon: "fab fa-fw fa-instagram"
+# #       url: "https://instagram.com/"
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#   # _pages
+#   - scope:
+#       path: "_pages"
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-# tag_archive:
+# category_archive:
 #   type: liquid
-#   path: /tags/
+#   path: /categories/
+# # tag_archive:
+# #   type: liquid
+# #   path: /tags/
+#command to remove the feed in the footer of the webpage
+atom_feed:
+  hide: true
