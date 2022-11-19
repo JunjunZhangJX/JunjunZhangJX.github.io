@@ -5,19 +5,18 @@ sitemap: false
 permalink: /CV/
 author_profile: true
 ---
+This seems like the most basic task but I finally had to resort to writing every link structure combination I could conceive of (~10, in all) and copy my _Resume.pdf_ file into multiple folders to figure out how to do this. In the end I put my _Resume.pdf_ file in a folder titled _static_ in my home folder. From there I added a link to the _header.html_ file amongst the list of other navigation links as follows. The key part is that it have a leading forward slash after the baseurl - _"\{\{ site.baseurl \}\}/static/Resume.pdf"_
 
-<!-- <embed src="https://github.com/JunjunZhangJX/JunjunZhangJX.github.io/blob/master/assets/images/JunjunCV.pdf" type="application/pdf" /> -->
+```html
+<li class="inline-block">
+  <a
+    target="_blank"
+    class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2"
+    href="{{ site.baseurl }}/assets/resume.pdf"
+    >Resume</a
+  >
+</li>
+```
 
+Also of note, you may want to include _a target="\_blank"_ so that the PDF opens in a new tab instead of replacing your site in the browser.
 
-
-<div id="adobe-dc-view" style="width: 800px;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/viewer.js"></script>
-<script type="text/javascript">
-	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "60f1c40821eb48a4982de99d974ca9a8", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {url: "https://github.com/JunjunZhangJX/JunjunZhangJX.github.io/blob/master/assets/images/JunjunCV.pdf"}},
-			metaData:{fileName: "JunjunCV.pdf"}
-		}, {embedMode: "IN_LINE"});
-	});
-</script>
